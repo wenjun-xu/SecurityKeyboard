@@ -1,1 +1,1 @@
-![image](https://github.com/China-xu/SecurityKeyboard/tree/master/SecurityKeyboard/SecurityKeyboard/image.png)
+SecurityKeyboard/SecurityKeyboard/SecurityKeyboard/image/image.png
