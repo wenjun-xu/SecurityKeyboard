@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC8EFFA91F7B8A28002076D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFA81F7B8A28002076D4 /* main.m */; };
+		CC8EFFAC1F7B8A28002076D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFAB1F7B8A28002076D4 /* AppDelegate.m */; };
+		CC8EFFAF1F7B8A28002076D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFAE1F7B8A28002076D4 /* ViewController.m */; };
+		CC8EFFB21F7B8A28002076D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8EFFB01F7B8A28002076D4 /* Main.storyboard */; };
+		CC8EFFB41F7B8A28002076D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8EFFB31F7B8A28002076D4 /* Assets.xcassets */; };
+		CC8EFFB71F7B8A28002076D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8EFFB51F7B8A28002076D4 /* LaunchScreen.storyboard */; };
+		CC8EFFC21F7B8A28002076D4 /* SecurityKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFC11F7B8A28002076D4 /* SecurityKeyboardTests.m */; };
+		CC8EFFCD1F7B8A28002076D4 /* SecurityKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFCC1F7B8A28002076D4 /* SecurityKeyboardUITests.m */; };
+		CC8EFFE31F7B8B66002076D4 /* WjKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFDC1F7B8B66002076D4 /* WjKeyboard.m */; };
+		CC8EFFE41F7B8B66002076D4 /* WjKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFDC1F7B8B66002076D4 /* WjKeyboard.m */; };
+		CC8EFFE51F7B8B66002076D4 /* WjKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFDC1F7B8B66002076D4 /* WjKeyboard.m */; };
+		CC8EFFE61F7B8B66002076D4 /* WjKeyboardBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFDE1F7B8B66002076D4 /* WjKeyboardBtn.m */; };
+		CC8EFFE71F7B8B66002076D4 /* WjKeyboardBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFDE1F7B8B66002076D4 /* WjKeyboardBtn.m */; };
+		CC8EFFE81F7B8B66002076D4 /* WjKeyboardBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFDE1F7B8B66002076D4 /* WjKeyboardBtn.m */; };
+		CC8EFFE91F7B8B66002076D4 /* WjKeyboardNumPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFE01F7B8B66002076D4 /* WjKeyboardNumPad.m */; };
+		CC8EFFEA1F7B8B66002076D4 /* WjKeyboardNumPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFE01F7B8B66002076D4 /* WjKeyboardNumPad.m */; };
+		CC8EFFEB1F7B8B66002076D4 /* WjKeyboardNumPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFE01F7B8B66002076D4 /* WjKeyboardNumPad.m */; };
+		CC8EFFEC1F7B8B66002076D4 /* WjKeyboardWordPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFE21F7B8B66002076D4 /* WjKeyboardWordPad.m */; };
+		CC8EFFED1F7B8B66002076D4 /* WjKeyboardWordPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFE21F7B8B66002076D4 /* WjKeyboardWordPad.m */; };
+		CC8EFFEE1F7B8B66002076D4 /* WjKeyboardWordPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8EFFE21F7B8B66002076D4 /* WjKeyboardWordPad.m */; };
+		CC8EFFF11F7BA44A002076D4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8EFFF01F7BA44A002076D4 /* image.png */; };
+		CC8EFFF21F7BA44A002076D4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8EFFF01F7BA44A002076D4 /* image.png */; };
+		CC8EFFF31F7BA44A002076D4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8EFFF01F7BA44A002076D4 /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC8EFFBE1F7B8A28002076D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC8EFF9C1F7B8A28002076D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC8EFFA31F7B8A28002076D4;
+			remoteInfo = SecurityKeyboard;
+		};
+		CC8EFFC91F7B8A28002076D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC8EFF9C1F7B8A28002076D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC8EFFA31F7B8A28002076D4;
+			remoteInfo = SecurityKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC8EFFA41F7B8A28002076D4 /* SecurityKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecurityKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8EFFA81F7B8A28002076D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC8EFFAA1F7B8A28002076D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC8EFFAB1F7B8A28002076D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC8EFFAD1F7B8A28002076D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC8EFFAE1F7B8A28002076D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC8EFFB11F7B8A28002076D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC8EFFB31F7B8A28002076D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC8EFFB61F7B8A28002076D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC8EFFB81F7B8A28002076D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8EFFBD1F7B8A28002076D4 /* SecurityKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8EFFC11F7B8A28002076D4 /* SecurityKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityKeyboardTests.m; sourceTree = "<group>"; };
+		CC8EFFC31F7B8A28002076D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8EFFC81F7B8A28002076D4 /* SecurityKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8EFFCC1F7B8A28002076D4 /* SecurityKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityKeyboardUITests.m; sourceTree = "<group>"; };
+		CC8EFFCE1F7B8A28002076D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8EFFDB1F7B8B66002076D4 /* WjKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WjKeyboard.h; sourceTree = "<group>"; };
+		CC8EFFDC1F7B8B66002076D4 /* WjKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WjKeyboard.m; sourceTree = "<group>"; };
+		CC8EFFDD1F7B8B66002076D4 /* WjKeyboardBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WjKeyboardBtn.h; sourceTree = "<group>"; };
+		CC8EFFDE1F7B8B66002076D4 /* WjKeyboardBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WjKeyboardBtn.m; sourceTree = "<group>"; };
+		CC8EFFDF1F7B8B66002076D4 /* WjKeyboardNumPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WjKeyboardNumPad.h; sourceTree = "<group>"; };
+		CC8EFFE01F7B8B66002076D4 /* WjKeyboardNumPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WjKeyboardNumPad.m; sourceTree = "<group>"; };
+		CC8EFFE11F7B8B66002076D4 /* WjKeyboardWordPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WjKeyboardWordPad.h; sourceTree = "<group>"; };
+		CC8EFFE21F7B8B66002076D4 /* WjKeyboardWordPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WjKeyboardWordPad.m; sourceTree = "<group>"; };
+		CC8EFFF01F7BA44A002076D4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC8EFFA11F7B8A28002076D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8EFFBA1F7B8A28002076D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8EFFC51F7B8A28002076D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC8EFF9B1F7B8A28002076D4 = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFA61F7B8A28002076D4 /* SecurityKeyboard */,
+				CC8EFFC01F7B8A28002076D4 /* SecurityKeyboardTests */,
+				CC8EFFCB1F7B8A28002076D4 /* SecurityKeyboardUITests */,
+				CC8EFFA51F7B8A28002076D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC8EFFA51F7B8A28002076D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFA41F7B8A28002076D4 /* SecurityKeyboard.app */,
+				CC8EFFBD1F7B8A28002076D4 /* SecurityKeyboardTests.xctest */,
+				CC8EFFC81F7B8A28002076D4 /* SecurityKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC8EFFA61F7B8A28002076D4 /* SecurityKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFEF1F7BA424002076D4 /* image */,
+				CC8EFFDA1F7B8B66002076D4 /* WJKeyBoard */,
+				CC8EFFAA1F7B8A28002076D4 /* AppDelegate.h */,
+				CC8EFFAB1F7B8A28002076D4 /* AppDelegate.m */,
+				CC8EFFAD1F7B8A28002076D4 /* ViewController.h */,
+				CC8EFFAE1F7B8A28002076D4 /* ViewController.m */,
+				CC8EFFB01F7B8A28002076D4 /* Main.storyboard */,
+				CC8EFFB31F7B8A28002076D4 /* Assets.xcassets */,
+				CC8EFFB51F7B8A28002076D4 /* LaunchScreen.storyboard */,
+				CC8EFFB81F7B8A28002076D4 /* Info.plist */,
+				CC8EFFA71F7B8A28002076D4 /* Supporting Files */,
+			);
+			path = SecurityKeyboard;
+			sourceTree = "<group>";
+		};
+		CC8EFFA71F7B8A28002076D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFA81F7B8A28002076D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC8EFFC01F7B8A28002076D4 /* SecurityKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFC11F7B8A28002076D4 /* SecurityKeyboardTests.m */,
+				CC8EFFC31F7B8A28002076D4 /* Info.plist */,
+			);
+			path = SecurityKeyboardTests;
+			sourceTree = "<group>";
+		};
+		CC8EFFCB1F7B8A28002076D4 /* SecurityKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFCC1F7B8A28002076D4 /* SecurityKeyboardUITests.m */,
+				CC8EFFCE1F7B8A28002076D4 /* Info.plist */,
+			);
+			path = SecurityKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		CC8EFFDA1F7B8B66002076D4 /* WJKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFDB1F7B8B66002076D4 /* WjKeyboard.h */,
+				CC8EFFDC1F7B8B66002076D4 /* WjKeyboard.m */,
+				CC8EFFDD1F7B8B66002076D4 /* WjKeyboardBtn.h */,
+				CC8EFFDE1F7B8B66002076D4 /* WjKeyboardBtn.m */,
+				CC8EFFDF1F7B8B66002076D4 /* WjKeyboardNumPad.h */,
+				CC8EFFE01F7B8B66002076D4 /* WjKeyboardNumPad.m */,
+				CC8EFFE11F7B8B66002076D4 /* WjKeyboardWordPad.h */,
+				CC8EFFE21F7B8B66002076D4 /* WjKeyboardWordPad.m */,
+			);
+			path = WJKeyBoard;
+			sourceTree = "<group>";
+		};
+		CC8EFFEF1F7BA424002076D4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EFFF01F7BA44A002076D4 /* image.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC8EFFA31F7B8A28002076D4 /* SecurityKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8EFFD11F7B8A28002076D4 /* Build configuration list for PBXNativeTarget "SecurityKeyboard" */;
+			buildPhases = (
+				CC8EFFA01F7B8A28002076D4 /* Sources */,
+				CC8EFFA11F7B8A28002076D4 /* Frameworks */,
+				CC8EFFA21F7B8A28002076D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecurityKeyboard;
+			productName = SecurityKeyboard;
+			productReference = CC8EFFA41F7B8A28002076D4 /* SecurityKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC8EFFBC1F7B8A28002076D4 /* SecurityKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8EFFD41F7B8A28002076D4 /* Build configuration list for PBXNativeTarget "SecurityKeyboardTests" */;
+			buildPhases = (
+				CC8EFFB91F7B8A28002076D4 /* Sources */,
+				CC8EFFBA1F7B8A28002076D4 /* Frameworks */,
+				CC8EFFBB1F7B8A28002076D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC8EFFBF1F7B8A28002076D4 /* PBXTargetDependency */,
+			);
+			name = SecurityKeyboardTests;
+			productName = SecurityKeyboardTests;
+			productReference = CC8EFFBD1F7B8A28002076D4 /* SecurityKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC8EFFC71F7B8A28002076D4 /* SecurityKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8EFFD71F7B8A28002076D4 /* Build configuration list for PBXNativeTarget "SecurityKeyboardUITests" */;
+			buildPhases = (
+				CC8EFFC41F7B8A28002076D4 /* Sources */,
+				CC8EFFC51F7B8A28002076D4 /* Frameworks */,
+				CC8EFFC61F7B8A28002076D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC8EFFCA1F7B8A28002076D4 /* PBXTargetDependency */,
+			);
+			name = SecurityKeyboardUITests;
+			productName = SecurityKeyboardUITests;
+			productReference = CC8EFFC81F7B8A28002076D4 /* SecurityKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8EFF9C1F7B8A28002076D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "徐庆标";
+				TargetAttributes = {
+					CC8EFFA31F7B8A28002076D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 964Y2DJ896;
+						ProvisioningStyle = Automatic;
+					};
+					CC8EFFBC1F7B8A28002076D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 964Y2DJ896;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC8EFFA31F7B8A28002076D4;
+					};
+					CC8EFFC71F7B8A28002076D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 964Y2DJ896;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC8EFFA31F7B8A28002076D4;
+					};
+				};
+			};
+			buildConfigurationList = CC8EFF9F1F7B8A28002076D4 /* Build configuration list for PBXProject "SecurityKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC8EFF9B1F7B8A28002076D4;
+			productRefGroup = CC8EFFA51F7B8A28002076D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC8EFFA31F7B8A28002076D4 /* SecurityKeyboard */,
+				CC8EFFBC1F7B8A28002076D4 /* SecurityKeyboardTests */,
+				CC8EFFC71F7B8A28002076D4 /* SecurityKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8EFFA21F7B8A28002076D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EFFB71F7B8A28002076D4 /* LaunchScreen.storyboard in Resources */,
+				CC8EFFB41F7B8A28002076D4 /* Assets.xcassets in Resources */,
+				CC8EFFB21F7B8A28002076D4 /* Main.storyboard in Resources */,
+				CC8EFFF11F7BA44A002076D4 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8EFFBB1F7B8A28002076D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EFFF21F7BA44A002076D4 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8EFFC61F7B8A28002076D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EFFF31F7BA44A002076D4 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8EFFA01F7B8A28002076D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EFFAF1F7B8A28002076D4 /* ViewController.m in Sources */,
+				CC8EFFE31F7B8B66002076D4 /* WjKeyboard.m in Sources */,
+				CC8EFFAC1F7B8A28002076D4 /* AppDelegate.m in Sources */,
+				CC8EFFE61F7B8B66002076D4 /* WjKeyboardBtn.m in Sources */,
+				CC8EFFEC1F7B8B66002076D4 /* WjKeyboardWordPad.m in Sources */,
+				CC8EFFE91F7B8B66002076D4 /* WjKeyboardNumPad.m in Sources */,
+				CC8EFFA91F7B8A28002076D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8EFFB91F7B8A28002076D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EFFEA1F7B8B66002076D4 /* WjKeyboardNumPad.m in Sources */,
+				CC8EFFED1F7B8B66002076D4 /* WjKeyboardWordPad.m in Sources */,
+				CC8EFFC21F7B8A28002076D4 /* SecurityKeyboardTests.m in Sources */,
+				CC8EFFE71F7B8B66002076D4 /* WjKeyboardBtn.m in Sources */,
+				CC8EFFE41F7B8B66002076D4 /* WjKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8EFFC41F7B8A28002076D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EFFEB1F7B8B66002076D4 /* WjKeyboardNumPad.m in Sources */,
+				CC8EFFEE1F7B8B66002076D4 /* WjKeyboardWordPad.m in Sources */,
+				CC8EFFCD1F7B8A28002076D4 /* SecurityKeyboardUITests.m in Sources */,
+				CC8EFFE81F7B8B66002076D4 /* WjKeyboardBtn.m in Sources */,
+				CC8EFFE51F7B8B66002076D4 /* WjKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC8EFFBF1F7B8A28002076D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC8EFFA31F7B8A28002076D4 /* SecurityKeyboard */;
+			targetProxy = CC8EFFBE1F7B8A28002076D4 /* PBXContainerItemProxy */;
+		};
+		CC8EFFCA1F7B8A28002076D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC8EFFA31F7B8A28002076D4 /* SecurityKeyboard */;
+			targetProxy = CC8EFFC91F7B8A28002076D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC8EFFB01F7B8A28002076D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8EFFB11F7B8A28002076D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC8EFFB51F7B8A28002076D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8EFFB61F7B8A28002076D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC8EFFCF1F7B8A28002076D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC8EFFD01F7B8A28002076D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC8EFFD21F7B8A28002076D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 964Y2DJ896;
+				INFOPLIST_FILE = SecurityKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.SecurityKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC8EFFD31F7B8A28002076D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 964Y2DJ896;
+				INFOPLIST_FILE = SecurityKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.SecurityKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC8EFFD51F7B8A28002076D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 964Y2DJ896;
+				INFOPLIST_FILE = SecurityKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.SecurityKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecurityKeyboard.app/SecurityKeyboard";
+			};
+			name = Debug;
+		};
+		CC8EFFD61F7B8A28002076D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 964Y2DJ896;
+				INFOPLIST_FILE = SecurityKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.SecurityKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecurityKeyboard.app/SecurityKeyboard";
+			};
+			name = Release;
+		};
+		CC8EFFD81F7B8A28002076D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 964Y2DJ896;
+				INFOPLIST_FILE = SecurityKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.SecurityKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecurityKeyboard;
+			};
+			name = Debug;
+		};
+		CC8EFFD91F7B8A28002076D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 964Y2DJ896;
+				INFOPLIST_FILE = SecurityKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.SecurityKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecurityKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC8EFF9F1F7B8A28002076D4 /* Build configuration list for PBXProject "SecurityKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8EFFCF1F7B8A28002076D4 /* Debug */,
+				CC8EFFD01F7B8A28002076D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8EFFD11F7B8A28002076D4 /* Build configuration list for PBXNativeTarget "SecurityKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8EFFD21F7B8A28002076D4 /* Debug */,
+				CC8EFFD31F7B8A28002076D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8EFFD41F7B8A28002076D4 /* Build configuration list for PBXNativeTarget "SecurityKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8EFFD51F7B8A28002076D4 /* Debug */,
+				CC8EFFD61F7B8A28002076D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8EFFD71F7B8A28002076D4 /* Build configuration list for PBXNativeTarget "SecurityKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8EFFD81F7B8A28002076D4 /* Debug */,
+				CC8EFFD91F7B8A28002076D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC8EFF9C1F7B8A28002076D4 /* Project object */;
+}
